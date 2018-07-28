@@ -42,22 +42,6 @@ class ShowingController: UITableViewController {
                 self.alert( detailTitle: "开启权限", actions: [sure , cancel])
             }
         }
-//        let store = CNContactStore()
-//        let request = CNContactFetchRequest.init(keysToFetch: [CNContactPhoneNumbersKey as CNKeyDescriptor , CNContactGivenNameKey as CNKeyDescriptor ,CNContactFamilyNameKey as CNKeyDescriptor ])
-//        self.contacts.removeAll()
-//        try? store.enumerateContacts(with: request) { (contact,  bool) in
-//            print(bool.pointee )
-//            if contact.isKeyAvailable(CNContactPhoneNumbersKey){
-//                for item in  contact.phoneNumbers{
-//                    if item.value.stringValue.count == 11 && item.value.stringValue.hasPrefix("1"){//chinese mobile number only
-//                        self.contacts.append(contact)
-//                    }
-//                }
-//            }
-//        }
-//        DispatchQueue.main.async {
-//            self.tableView.reloadData()
-//        }
     }
     
     
